@@ -1,0 +1,23 @@
+:root {
+    --black: #191414;
+    --green: #1db954;
+    --white: white;
+}
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: var(--black);
+}
+.login > img {
+    width: 60%;
+    height: 40vh;
+}
+.login > a {
+    padding: 20px;
+    background-color: var(--green);
+    border-radius: 99px;
+    font-weight: 800;
+    color: var(--white);
+    text-decoration: none;
+}
