@@ -8,10 +8,11 @@
     place-items: center;
     height: 100vh;
     background-color: var(--black);
+    
 }
 .login > img {
-    width: 60%;
-    height: 40vh;
+    width: 45%;
+    height: 30vh;
 }
 .login > a {
     padding: 20px;
@@ -20,4 +21,6 @@
     font-weight: 800;
     color: var(--white);
     text-decoration: none;
+    
+    
 }
