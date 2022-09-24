@@ -2,9 +2,47 @@
 
 .footer{
     position: fixed;
+    display: flex;
+    justify-content: space-between;
+    
     bottom: 0;
     height: 65px;
     width: 100%;
     background-color: #282828;
     
 }
+.footer__left{
+    flex: .3;
+}
+.footer__center{
+    flex: .4;
+    padding: 0 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 550px;
+}
+.footer__right{
+    flex: .3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    
+}
+.volume-level-bar{
+      position: relative;
+      width: 150px;
+      height: 2px;
+      background: #a3b3ce;
+      margin-right: 60px;
+      cursor: pointer;
+}
+.volume-level-current{
+    height: inherit;
+    width: 0%;
+    background-color:white ;
+    border-radius: 10px;
+}
+
