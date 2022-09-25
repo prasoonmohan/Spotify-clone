@@ -29,3 +29,13 @@
     width: 90%;
     margin: 10px auto;
 }
+
+@media only screen and (max-width:400px) and (min-width:300px){
+    .sidebar{
+      display: none;
+        
+    }
+    .sidebar__logo {
+    display: none;
+    }
+}

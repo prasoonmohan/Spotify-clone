@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Footer.css"
-import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
+import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
 import SkipNextIcon from '@mui/icons-material/SkipNext';
 import ShuffleIcon from '@mui/icons-material/Shuffle';
@@ -14,12 +14,16 @@ function Footer() {
   return (
     <div className='footer'>
     <div className="footer__left">
-
+    <img src="https://static-cse.canva.com/blob/930600/1600w-eTDWmXsrk3g.jpg" className="footer__albumlogo" alt="" />
+    <div className="song__info">
+      <h4>Yo Yo</h4>
+      <p>description</p>
+    </div>
     </div>
     <div className="footer__center">
     <ShuffleIcon className="footer__green"/>
     <SkipPreviousIcon className='footer__icon' />
-    <PlayCircleOutlineIcon className='footer__icon' fontSize="large"/>
+    <PlayCircleIcon className='footer__icon' fontSize="large"/>
     <SkipNextIcon  className='footer__icon'/>
     <RepeatIcon className="footer__green"/>
 

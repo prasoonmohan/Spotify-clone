@@ -9,6 +9,7 @@
     height: 100vh;
     background-color: var(--black);
     
+    
 }
 .login > img {
     width: 45%;
@@ -23,4 +24,15 @@
     text-decoration: none;
     
     
+}
+
+@media only screen and (max-width:400px) and (min-width:300px){
+
+    .login > img{
+        height: 80px;
+        width: 180px;
+        margin-top: 40px;
+       
+    }
+   
 }
