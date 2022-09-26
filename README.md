@@ -27,7 +27,6 @@
 * Used the following major frameworks/libraries to complete the project
   - [![React][React.js]][React-url]
   - [![Firebase][Firebase]][Firebase-url]
-  - [![Material UI][Material UI]][Material UI icons]
   - [![NPM][npm]][npm-url]
 
 
@@ -55,7 +54,7 @@ $ npm start
 
 ## Live Link
 
-[Disney plus Clone](https://github.com/prasoonmohan/Spotify-clone ) - Live link of the project
+[spotify](https://github.com/prasoonmohan/Spotify-clone ) - Live link of the project
 
 
 
